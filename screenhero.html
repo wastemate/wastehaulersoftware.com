@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="style/blueprint.css" type="text/css" rel="stylesheet">
+    <link href="style/core.css" type="text/css" rel="stylesheet">	
+<title>Core Computing Solutions</title>
+</head>
+<body>
+    <div id="header-extend">
+        <div id="header-wrapper" class="container">
+            <div id="logo" ><a href="coreHome.html"><img src="images/logosmall.png" alt="Core Computing Solutions"></a></div>
+                <div id="MainNav" class="nav-h" style="border-left:1px solid #c7c7c7;">
+		<div id="HeaderSeparator"><a id="HeaderNavLink" href="coreHome.html">Home</a></div>
+		<div id="HeaderSeparator" style="position:relative"><a id="HeaderNavLink" a href="javascript:showDiv()">Solutions</a><div id="page1" class="menuz"><p><a href="encore.html">EnCORE - Back Office</a></p><a href="emobile.html">EnCORE - eMobile</a></div></div>
+		<div id="HeaderSeparator"><a id="HeaderNavLink" href="downloads.html">Downloads</a></div>
+		<div id="HeaderSeparator"><a id="HeaderNavLinkSelected" href="support.html">Support</a></div>
+		<div id="HeaderSeparator"><a id="HeaderNavLink" href="contact.html">Contact Us</a></div>
+		</div> 
+        </div>
+    </div>
+    <div id="home-cta-extend" style="background-image:none; background-color:#0179b3;">
+        <div id="inner" class="nav-h container" style="height:175px">
+	    <img src="images/contact177.png" style="float:right">
+            <div id="home-sidebar-wrapper" style="position:absolute;left: -15px;width: 227px;height: 362px;">
+                <div id="home-sidebar-inner">
+                    <h2>eMobile&trade;</h2> <p>Our newest addition to the Core&trade; product line</p>
+		    <div style="text-align: center;"><a href="emobile.html" title="Request a Demo"><img style="border-style: solid; border-width: 0px;" src="images/smallMap.png" alt="Request a Demo"></a></br></br>
+		    <p>Call to request a demo</p>
+		    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="home-columns-extend">
+        <div class="container">
+            <div class="span-7 colborder">
+			.
+	    	</div>
+
+        	<div class="span-8 colborder" style="margin-right:10px;width:650px;">
+               <span id="sh_button_div"></span>
+				<script type="text/javascript">
+				  var _shq = _shq || [];
+				  _shq.push(['sh_button_div', { email : 'jedd@ccscorp.biz', showOffline : true}]);
+				  buttonCSS = "color:black;";
+				  (function() {
+				    var shjs = document.createElement('script'); shjs.type = 'text/javascript'; shjs.async = true;
+				    shjs.src = ('https:' == document.location.protocol ? 'https://secure' : 'http://www') + '.screenhero.com/js/jsplugin.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(shjs, s);
+				  })();
+				</script>
+        	</div>
+        </div>
+    </div>
+    
+  
+        <div id="FooterNav">
+	    <div id="FooterNavElement"><a id="FooterNavLink" href="coreHome.html">Home</a></div>
+	    <div id="FooterNavElement"><a id="FooterNavLink" href="emobile.html">Solutions</a></div>
+	    <div id="FooterNavElement"><a id="FooterNavLink" href="downloads.html">Downloads</a></div>
+	    <div id="FooterNavElement"><a id="FooterNavLink" href="contact.html">Contact Us</a></div>
+	</div>
+	<script src="scripts/jquery-1.9.1.min.js"></script>
+	<script>  
+		function showDiv() {
+		   document.getElementById('page1').style.display = "block";
+		}
+
+		$('html').click(function() {
+		//Hide the menus if visible
+		document.getElementById('page1').style.display = "none";
+		});
+
+		$('#menucontainer').click(function(event){
+		    event.stopPropagation();
+		}); 
+  	</script>
+</body></html>
+

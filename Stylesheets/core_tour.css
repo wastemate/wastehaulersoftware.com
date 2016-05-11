@@ -1,0 +1,76 @@
+
+.tour-text-center{
+	text-align:  center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.core-tour {
+	color: black;
+}
+
+.core-tour h2 {
+	font-size: 2rem;
+	font-family: "Source Sans Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	line-height: 1;
+}
+
+.core-tour h5 {
+  font-size: 1.3125rem;
+  line-height: 1.26;
+  font-weight: 400;
+  font-family:  "Source Sans Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 10px;
+}
+
+.core-tour p {
+	font-size: 1.125rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	line-height: 23px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.core-tour-space {
+  padding-top: 20px;
+  width: auto;
+  padding-left: 0;
+  padding-right: ;
+}
+
+.core-tour-space:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.core-tour-left {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  display: inline;
+  padding-top: 10px;
+}
+
+.core-tour-right {
+  float: right;
+  margin-right: 0;
+  display: inline;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.core-tour hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 20px 0;
+  padding: 0;
+}
